@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar">
+        <img src="vijay.jpeg" alt="logo" id="logo">
+        
+        <!-- menu -->
+        <ul id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myHome(this)">Home</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myAbout(this)">About</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myServices(this)">Services</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myContact(this)">Contact</a></li>
+        </ul>
+
+        <span class="openbtn" onclick="openNav()">&#9776;</span>
+    </nav>
+
+
+    <!-- home -->
+    <section id="home">
+        <p class="para">The Prodigy Infotech internship in web development is a highly sought-after opportunity designed to provide practical experience in building and maintaining web applications. Interns engage in a comprehensive program that covers both front-end and back-end development, allowing them to gain proficiency in a variety of technologies and frameworks. Working on real-world projects, interns collaborate with experienced developers, enhancing their problem-solving skills and understanding of the software development lifecycle. The internship also includes mentorship from industry professionals, workshops, and training sessions to support the interns' growth and career readiness. By the end of the program, participants are well-equipped with the technical skills and professional experience necessary to excel in the web development field.</p>
+    </section>
+
+
+    <!-- about -->
+    <section id="about">
+        <h1 class="heading">About</h1>
+        <p class="para">Prodigy Infotech offers a comprehensive internship program in web development, designed to provide participants with hands-on experience and practical knowledge in the field. The program focuses on key areas such as front-end and back-end development, utilizing technologies like HTML, CSS, JavaScript, and various frameworks such as React or Angular for front-end, and Node.js or Django for back-end. Interns have the opportunity to work on real-world projects, enhancing their coding skills, problem-solving abilities, and understanding of web architecture. Guided by experienced mentors, interns receive valuable feedback and industry insights, preparing them for successful careers in web development. The collaborative and innovative environment at Prodigy Infotech fosters professional growth and networking, making it an ideal setting for aspiring web developers.</p>
+    </section>
+
+
+    <!-- services -->
+    <section id="services">
+        <h1 class="heading">Services</h1>
+        <ul id="service">
+            <li>Prodigy Infotech internship in web development.</li>
+           
+        </ul>
+    </section>
+    
+
+    <!-- contact -->
+    <section id="contact">
+        <h1 class="heading">Get in touch</h1>
+
+        <ul>
+            <li><a href="vijaykumarelakala@gmail.com" id="mail" onmouseover="mailOver(this)" onmouseout="mailOut(this)">Send Email</a></li>
+            <li><img src="phone-solid.svg" alt="phone" height="15" style="margin-right: 5px;"> 9861934018</li>
+            <li><img src="location-dot-solid.svg" alt="location" height="16" style="margin-right: 5px;">gajapathi dist, parlakhemundi, India</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p id="center">&copy; 2024 parlekhemundi India</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
